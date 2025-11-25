@@ -1,0 +1,8 @@
+{
+  "name": "OptiDocs AI",
+  "description": "A powerful, intelligent tool to compress images to specific file sizes, adjust brightness, convert between formats, and smart-scan documents using Gemini AI.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
