@@ -123,7 +123,7 @@ export const ToolCompressor: React.FC = () => {
   };
 
   return (
-    <div ref={containerRef} className="w-full max-w-6xl mx-auto p-6">
+    <div ref={containerRef} className="w-full max-w-6xl feature-card mx-auto p-6">
       <div className="mb-8">
         <h2 className="text-3xl font-bold text-white mb-2">Smart Compressor</h2>
         <p className="text-slate-400">Reduce file size for Images and PDFs while maintaining readability.</p>
