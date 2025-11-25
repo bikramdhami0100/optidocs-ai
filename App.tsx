@@ -32,7 +32,7 @@ function App() {
       </main>
       
       <footer className="py-8 text-center text-slate-600 text-sm">
-        <p>&copy; 2024 OptiDocs AI. Powered by Google Gemini.</p>
+        <p>Copyright &copy; All rights reserved</p>
       </footer>
     </div>
   );

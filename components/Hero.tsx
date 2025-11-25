@@ -79,10 +79,6 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
       </div>
 
       <div className="max-w-5xl w-full mx-auto text-center z-10">
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-indigo-300 text-sm font-medium mb-8 hero-title backdrop-blur-sm">
-          <Star size={14} className="text-yellow-400 fill-yellow-400" /> 
-          <span>Powered by Google Gemini 2.5</span>
-        </div>
         
         <h1 className="hero-title text-6xl md:text-8xl font-bold tracking-tight mb-6">
           <span className="bg-clip-text text-transparent bg-gradient-to-b from-white to-slate-400">
@@ -104,7 +100,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
             <div
               key={f.id}
               onClick={() => onNavigate(f.id)}
-              className={`feature-card group relative p-8 rounded-3xl bg-gradient-to-br ${f.gradient} border ${f.border} backdrop-blur-xl cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-indigo-500/10`}
+              className={` group relative p-8 rounded-3xl bg-gradient-to-br ${f.gradient} border ${f.border} backdrop-blur-xl cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-indigo-500/10`}
             >
               <div className="absolute inset-0 rounded-3xl bg-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div className="relative z-10 flex flex-col items-start h-full">
